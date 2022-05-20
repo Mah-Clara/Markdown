@@ -19,10 +19,27 @@ Veja abaixo uma lista dos comandos em markdown e alguns exemplos de seu uso:
 
 > \#\#\#\#\#\# Título <h6>
 
-### #1.1 Exemplos de titulação
+## #1.1 Exemplos de titulação
 # Título 1
 ## Título 2
 ### Título 3
 #### Título 4
 ##### Título 5
 ###### Título 6
+
+## #2 Ênfase
+Para adicionar ênfase ao conteúdo que será escrito, usa-se o asterisco ````*``` ou traço-baixo (_underline_) ```_```:
+
+* **Negrito**: adicione dois asteriscos \*\*texto\*\* ou dois traços-baixos \_\_texto\_\_ no início e no fim do conteúdo.
+
+* **Itálico**: adicione apenas um asterisco \*texto\* ou um traço-baixo \_texto\_ no início e no fim do conteúdo.
+
+* **Negrito itálico**: adicione três asteriscos \*\*\*texto\*\*\* ou dois asteriscos e um traço-baixo \*\*\_texto\_\*\* no início e no fim do conteúdo.
+
+> Este é um exemplo de um texto que possui uma ênfase em **negrito**, em _itálico_ e em **_negrito itálico_**.
+
+## #3 Links
+Existem duas formas de inserir link em Markdown, através de um **link direto** ou usando um **texto-âncora**:
+
+* **Texto-âncora**: utilize os caracteres ```[]()```, adicionando entre chaves o texto que você quer que apareça, e entre os parênteses, o endereço de destino, no formato. Exemplo ```[meu perfil no GitHub](https://github.com/mah-clara/)```.
+
