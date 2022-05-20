@@ -79,3 +79,12 @@ As listas acima serão exibidas dessa maneira, respectivamente:
 > 2. Item 2
 
 > 3. Item 3
+
+## #5 Imagens
+O código para inserir uma imagem no conteúdo é semelhante ao código de inserir links-âncora, adicionando um ponto de exclamação ```!``` no início do código, como no exemplo abaixo:
+
+\![Alt ou título da imagem](URL da imagem)
+
+> Esta é uma linha com uma imagem personalizada ![Octocat](https://github.githubassets.com/images/modules/logos_page/Octocat.png).
+
+> Imagens grandes podem estar em linhas individuais, para serem exibidas em maior tamanho.
