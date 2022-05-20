@@ -30,7 +30,7 @@ Veja abaixo uma lista dos comandos em markdown e alguns exemplos de seu uso:
 ###### Título 6
 
 ## #2 Ênfase
-Para adicionar ênfase ao conteúdo que será escrito, usa-se o asterisco ````*``` ou traço-baixo (_underline_) ```_```:
+Para adicionar ênfase ao conteúdo que será escrito, usa-se o asterisco ```*``` ou traço-baixo (_underline_) ```_```:
 
 * **Negrito**: adicione dois asteriscos \*\*texto\*\* ou dois traços-baixos \_\_texto\_\_ no início e no fim do conteúdo.
 
