@@ -8,17 +8,17 @@ Veja abaixo uma lista dos comandos em markdown e alguns exemplos de seu uso:
 
 ## #1 Titulação
 
-\# Título <\\h1>
+\# Título ```<h1>```
 
-\#\# Título <\\h2>
+\#\# Título ```<h2>```
 
-\#\#\# Título <\\h3>
+\#\#\# Título ```<h3>```
 
-\#\#\#\# Título <\\h4>
+\#\#\#\# Título ```<h4>```
 
-\#\#\#\#\# Título <\\h5>
+\#\#\#\#\# Título ```<h5>```
 
-\#\#\#\#\#\# Título <\\h6>
+\#\#\#\#\#\# Título ```<h6>```
 
 ## #1.1 Exemplos de titulação
 
