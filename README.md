@@ -47,4 +47,31 @@ Existem duas formas de inserir link em Markdown, através de um **link direto** 
 
 * **Link direto**: envolva o endereço da web em chaves <>. O endereço ficará visível e será clicável pelo usuário. O endereço em forma de link direto tem o formato ```<https://github.com/mah-clara/>```.
 
-> Este é [meu perfil no GitHub](https://github.com/mah-clara/), e este é um link direto <https://github.com/mah-clara/>.
+> Este é [meu perfil no GitHub](https://github.com/mah-clara/), e este é um link direto <https://github.com/mah-clara/> do meu perfil.
+
+## #4 Listas de itens
+Para listas não ordenadas, utilize um asterisco ```*``` na frente to item da lista:
+
+\* Item 1
+\* Item 2
+\* Item 3
+
+Para listas ordenadas, utilize o número do item seguido de ponto ```.``` :
+
+\1. Item 1
+\2. Item 2
+\3. Item 3
+
+As listas acima serão exibidas dessa maneira, respectivamente:
+
+> * Item 1
+
+> * Item 2
+
+> * Item 3
+
+> 1. Item 1
+
+> 2. Item 2
+
+> 3. Item 3
