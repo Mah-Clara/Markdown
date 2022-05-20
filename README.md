@@ -43,5 +43,8 @@ Para adicionar ênfase ao conteúdo que será escrito, usa-se o asterisco ```*``
 ## #3 Links
 Existem duas formas de inserir link em Markdown, através de um **link direto** ou usando um **texto-âncora**:
 
-* **Texto-âncora**: utilize os caracteres ```[]()```, adicionando entre chaves o texto que você quer que apareça, e entre os parênteses, o endereço de destino, no formato. Exemplo ```[meu perfil no GitHub](https://github.com/mah-clara/)```.
+* **Texto-âncora**: utilize os caracteres ```[]()```, adicionando entre chaves o texto que você quer que apareça, e entre os parênteses, o endereço de destino, no formato ```[meu perfil no GitHub](https://github.com/mah-clara/)```.
 
+* **Link direto**: envolva o endereço da web em chaves <>. O endereço ficará visível e será clicável pelo usuário. O endereço em forma de link direto tem o formato ```<https://github.com/mah-clara/>```.
+
+> Este é [meu perfil no GitHub](https://github.com/mah-clara/), e este é um link direto <https://github.com/mah-clara/>.
