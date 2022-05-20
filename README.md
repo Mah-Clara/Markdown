@@ -85,6 +85,6 @@ O código para inserir uma imagem no conteúdo é semelhante ao código de inser
 
 \![Alt ou título da imagem](URL da imagem)
 
-> Esta é uma linha com uma imagem personalizada ![Octocat](https://github.githubassets.com/images/modules/logos_page/Octocat.png).
+> Esta é uma linha com uma imagem personalizada ![Octocat](https://github.githubassets.com/images/modules/logos_page/Octocat.png | width=50).
 
 > Imagens grandes podem estar em linhas individuais, para serem exibidas em maior tamanho.
