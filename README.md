@@ -85,6 +85,21 @@ O código para inserir uma imagem no conteúdo é semelhante ao código de inser
 
 \![Alt ou título da imagem](URL da imagem)
 
-> Esta é uma linha com uma imagem personalizada ![Octocat](https://github.githubassets.com/images/modules/logos_page/Octocat.png | width=50).
+Embora seja um comando simples de ser utilizado, não é possível alterar o tamanho da imagem por meio dele. Outra opção viável e mais recomendada é:
+
+* **Porcentagem**
+```html
+<img src="URL da imagem" width=número%>
+```
+* **Pixels**
+```html
+<img src="URL da imagem" width="número">
+```
+### Exemplo:
+```html
+<img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="50">
+```
+
+> A imagem do exemplo acima será exibida dessa maneira, respectivamente: <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="50">.
 
 > Imagens grandes podem estar em linhas individuais, para serem exibidas em maior tamanho.
