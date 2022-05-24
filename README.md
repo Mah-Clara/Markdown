@@ -118,3 +118,42 @@ Como aparece no HTML:
 >Para adicionar mais uma linha à citação, basta teclar Enter para um novo
 >código sinal. Isso gerará um novo parágrafo dentro do *blockquote*.
 >Códigos de **negrito**, _itálico_ e <https://links.com> funcionam aqui.
+
+## #7 Código (Code Highlight)
+Há dois modos de adicionar trechos de código ao Markdown:
+
+* **Código em linha** (_inline_): adicione um acento grave ```ˋ``` no início e no final do código.
+
+* **Múltiplas linhas de código**: envolva as linhas de código com três acentos graves ```ˋˋˋ``` ou três tils ```~~~```.
+
+ Esta é uma linha que contém um \`código\`.
+
+\`\`\`
+Esta é uma linha de código
+\`\`\`
+
+ Para especificar que tipo de linguagem está sendo apresentada no bloco de códigos adicionando o nome da linguagem de programação após o ```ˋˋˋ``` ou ```~~~```, por exemplo ```~~~javascript``` ou ```~~~ruby```. Veja nos exemplos abaixo:
+
+\~\~\~javascript
+Esta é uma linha de código em Javascript.
+\~\~\~
+
+\~\~\~php
+Esta é uma linha de código em PHP.
+\~\~\~
+
+\~\~\~html
+Esta é uma linha de código em HTML.
+\~\~\~
+
+~~~javascript
+Esta é uma linha de código em Javascript.
+~~~
+~~~php
+Esta é uma linha de código em PHP.
+~~~
+~~~html
+Esta é uma linha de código em HTML.
+~~~
+
+> Aqui está a lista de [linguagens suportadas](https://pygments.org/languages/) pelo Pygments, usada em nosso **Learning Center**.
