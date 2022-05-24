@@ -83,7 +83,7 @@ As listas acima serão exibidas dessa maneira, respectivamente:
 ## #5 Imagens
 O código para inserir uma imagem no conteúdo é semelhante ao código de inserir links-âncora, adicionando um ponto de exclamação ```!``` no início do código, como no exemplo abaixo:
 
-\![Alt ou título da imagem](URL da imagem)
+**\![Alt ou título da imagem](URL da imagem)**
 
 Embora seja um comando simples de ser utilizado, não é possível alterar o tamanho da imagem por meio dele. Outra opção viável e mais recomendada é:
 
@@ -103,3 +103,18 @@ Embora seja um comando simples de ser utilizado, não é possível alterar o tam
 > A imagem do exemplo acima será exibida dessa maneira, respectivamente: <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="50">.
 
 > Imagens grandes podem estar em linhas individuais, para serem exibidas em maior tamanho.
+
+## #6 Citação (Quote)
+Para transformar um texto em uma citação ou comentário, semelhante ao código HTML \<blockquote\>, utilize o sinal ```>``` no início da linha que será formatada:
+
+\>Este é um *blockquote*. O sinal usado abre e fecha este código no HTML. 
+\>Para adicionar mais uma linha à citação, basta teclar Enter para um novo
+\>código sinal. Isso gerará um novo parágrafo dentro do *blockquote*.
+\>Códigos de \*\*negrito\*\*, \_itálico\_ e \<https://links.com\> funcionam aqui.
+
+Como aparece no HTML:
+
+>Este é um *blockquote*. O sinal usado abre e fecha este código no HTML. 
+>Para adicionar mais uma linha à citação, basta teclar Enter para um novo
+>código sinal. Isso gerará um novo parágrafo dentro do *blockquote*.
+>Códigos de **negrito**, _itálico_ e <https://links.com> funcionam aqui.
