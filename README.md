@@ -53,32 +53,24 @@ Existem duas formas de inserir link em Markdown, através de um **link direto** 
 Para listas não ordenadas, utilize um asterisco ```*``` na frente to item da lista:
 
 \* Item 1
-
 \* Item 2
-
 \* Item 3
 
 Para listas ordenadas, utilize o número do item seguido de ponto ```.``` :
 
 1\. Item 1
-
 2\. Item 2
-
 3\. Item 3
 
 As listas acima serão exibidas dessa maneira, respectivamente:
 
-> * Item 1
+* Item 1
+* Item 2
+* Item 3
 
-> * Item 2
-
-> * Item 3
-
-> 1. Item 1
-
-> 2. Item 2
-
-> 3. Item 3
+1. Item 1
+2. Item 2
+3. Item 3
 
 ## #5 Imagens
 O código para inserir uma imagem no conteúdo é semelhante ao código de inserir links-âncora, adicionando um ponto de exclamação ```!``` no início do código, como no exemplo abaixo:
@@ -156,4 +148,46 @@ Esta é uma linha de código em PHP.
 Esta é uma linha de código em HTML.
 ~~~
 
-> Aqui está a lista de [linguagens suportadas](https://pygments.org/languages/) pelo Pygments, usada em nosso **Learning Center**.
+> As linguagens principais para funcionalidades de GitHub incluem **C**, **C++**, **C#**, **Go**, **Java**, **JavaScript**, **PHP**, **Python**, **Ruby**, **Scala** e **TypeScript**.
+
+## #8 Tabela
+Escolha os títulos das colunas e use ```|``` para delimitar as colunas. Depois, utilize hífen ```-``` na segunda linha para indicar que acima estão os títulos das colunas, usando novamente o ```|``` para delimitar colunas. Veja um exemplo abaixo:
+
+Exemplo   \| Valor do exemplo
+
+\-\-\-\-\-\-\-\-\- \| \-\-\-\-\-\-
+
+Exemplo 1 \| R$ 10
+
+Exemplo 2 \| R$ 8
+
+Exemplo 3 \| R$ 7
+
+Exemplo 4 \| R$ 8
+
+Como aparece no **GitHub**:
+
+Exemplo   | Valor do exemplo
+--------- | ------
+Exemplo 1 | R$ 10
+Exemplo 2 | R$ 8
+Exemplo 3 | R$ 7
+Exemplo 4 | R$ 8
+
+Para especificar o tipo de alinhamento que deseja ter nas tabelas, utilize ```:``` ao lado do campo horizontal de hífens ```---```, na segunda linha da sua tabela. Veja abaixo:
+
+* **Alinhado a esquerda**: usar ```:``` no lado esquerdo (alinhamento padrão);
+* **Alinhado a direita**: usar ```:``` no lado direito;
+* **Centralizado**: usar ```:``` dos dois lados.
+
+Veja no exemplo:
+
+Alinhado a esquerda \| Centralizado \| Alinhado a direita
+
+\:\-\-\-\-\-\-\-\-\- \| \:\-\-\-\-\-\-\: \| \-\-\-\-\-\-\-\:
+
+Valor \| Valor \| Valor
+
+Alinhado a esquerda | Centralizado | Alinhado a direita
+:--------- | :------: | -------:
+Valor | Valor | Valor
