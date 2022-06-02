@@ -77,6 +77,8 @@ O código para inserir uma imagem no conteúdo é semelhante ao código de inser
 
 **\![Alt ou título da imagem](URL da imagem)**
 
+
+//informação tirada de outras fontes de pesquisa
 Embora seja um comando simples de ser utilizado, não é possível alterar o tamanho da imagem por meio dele. Outra opção viável e mais recomendada é:
 
 * **Porcentagem**
